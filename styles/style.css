@@ -1,0 +1,88 @@
+html{
+	font-family: 'Raleway', sans-serif;
+}
+body{
+	margin:0px;
+	padding:0px;
+}
+.iconesrodape{
+	width:25px;
+	padding-bottom:8px;
+}
+main {
+  height:350px;
+  padding:5px;
+}
+main div {
+  color: black;
+  padding: 15px;
+  max-width: 300px;
+  margin: 50px;
+  }
+.flex-centralizado {
+  display: flex;
+  justify-content: center;
+  background-color:white;
+}
+.sep{
+	border:solid;
+	border-color:#efd60e;
+	border-width:1.5px;
+	width:50px;
+}
+.dev{
+	width:140px;
+}
+.nome{
+	font-family: 'Lobster', cursive;
+	font-size:19px;
+}
+
+img.socialmedias{
+	width:50px;
+	opacity: .5;
+    transition: opacity .5s ease-out;
+    -moz-transition: opacity .5s ease-out;
+    -webkit-transition: opacity .5s ease-out;
+    -o-transition: opacity .5s ease-out;
+}
+img.socialmedias:hover {
+    opacity: 1;
+}
+footer.footer {
+	padding: 50px 0 20px;
+	color: rgba(255, 255, 255, 0.7);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-attachment: scroll; 
+}
+@media (min-width: 1024px) {
+	footer.footer {
+		background-attachment: fixed; 
+	} 
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+	footer.footer {
+		background-attachment: scroll; 
+	} 
+}
+footer.footer a {
+	color:rgba(255, 255, 255, 0.7); 
+}
+footer.footer a:hover {
+	color: white; 
+}
+footer.footer p {
+	font-size: 22px; 
+}
+footer.footer .footer-contato {
+	margin: 75px 0; 
+}
+footer.footer .footer-social {
+	margin-bottom: 75px; 
+}
+footer.footer .copyright {
+	font-size: 1rem; 
+}
